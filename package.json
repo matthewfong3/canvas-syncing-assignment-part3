@@ -1,0 +1,33 @@
+{
+  "name": "canvas-syncing-assignment-part3",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
+  },
+  "description": "syncing data assignment part 3",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewfong3/canvas-syncing-assignment-part3.git"
+  },
+  "author": "Matthew Fong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewfong3/canvas-syncing-assignment-part3/issues"
+  },
+  "homepage": "https://github.com/matthewfong3/canvas-syncing-assignment-part3#readme",
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
